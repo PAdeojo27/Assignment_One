@@ -56,7 +56,7 @@ public class EncryptionMachine {
      * @Name - caesarCipher
      * @Description - Encypts a string and returns the resluting encryption
      *
-     * @param String _unencryptedMessage - The unencrypted string from the user
+     * @param  _unencryptedMessage - The unencrypted string from the user
      * @return String encrpyedMessage - This is the returned encrypted string
      */
         static String caesarCipher(String _unencryptedMessage)
