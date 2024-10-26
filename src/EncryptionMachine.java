@@ -34,11 +34,11 @@ public class EncryptionMachine {
             System.out.println("Enter Key");
         //Key Intake // this feels like a redundant comment
             userInput = ResponeCollecter.nextLine();
-        //Encrypt the Key // this feels like a redundant comment
+        //Encrypt the Key // nit - this feels like a redundant comment
             System.out.println("\""+ userInput+ "\" " +"has been encrypted to: "+caesarCipher(userInput));
 
 
-        //Take number of words // this feels like a redundant comment
+        //Take number of words // nit - this feels like a redundant comment
             System.out.println("How many words is your message?:");
 
             wordsInMessage = ResponeCollecter.nextInt();
@@ -59,7 +59,7 @@ public class EncryptionMachine {
      * @Name - caesarCipher
      * @Description - Encypts a string and returns the resluting encryption
      *
-     * @param  _unencryptedMessage - The unencrypted string from the user // nit - remove the underscore as it is not in the java naming convention
+     * @param  _unencryptedMessage - The unencrypted string from the user // remove the underscore as it is not in the java naming convention
      * @return String encrpyedMessage - This is the returned encrypted string
      */
         static String caesarCipher(String _unencryptedMessage)
